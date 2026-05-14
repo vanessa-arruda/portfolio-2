@@ -1,7 +1,7 @@
 function App() {
   return (
     <div>
-      <p>This is my Portfolio 2026</p>
+      <p>VANESSA - My Portfolio 2026 is coming out of the oven...</p>
     </div>
   )
 }
