@@ -4,7 +4,7 @@ function Scene() {
   return (
     <div className={styles.scene}>
       <picture>
-        <source media="(max-width: 768px)" srcSet="/images/office-mobile.png" />
+        <source media="(max-width: 768px)" srcSet="/images/office-mobile-2.png" />
         <img
           className={styles.background}
           src="/images/office-desktop.png"
