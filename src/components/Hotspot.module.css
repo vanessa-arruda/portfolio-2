@@ -1,0 +1,7 @@
+.hotspot {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  cursor: pointer;
+  background: transparent;
+}

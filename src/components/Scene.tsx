@@ -1,6 +1,16 @@
+import { useState } from 'react'
+import Hotspot from './Hotspot'
+import { hotspots } from '../data/hotspots'
 import styles from './Scene.module.css'
 
 function Scene() {
+  const [activeHotspot, setActiveHotspot] = useState<string | null>(null)
+
+  function handleHotspotClick(id: string) {
+    console.log('clicked:', id)
+    setActiveHotspot(id)
+  }
+
   return (
     <div className={styles.scene}>
       <picture>
@@ -11,6 +21,14 @@ function Scene() {
           alt="Vanessa's office"
         />
       </picture>
+
+      {hotspots.map(hotspot => (
+        <Hotspot
+          key={hotspot.id}
+          hotspot={hotspot}
+          onClick={handleHotspotClick}
+        />
+      ))}
     </div>
   )
 }
