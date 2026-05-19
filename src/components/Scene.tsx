@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Hotspot from './Hotspot'
+import WindowOverlay from './WindowOverlay'
 import { hotspots } from '../data/hotspots'
 import styles from './Scene.module.css'
 
@@ -17,10 +18,12 @@ function Scene() {
         <source media="(max-width: 768px)" srcSet="/images/office-mobile-2.png" />
         <img
           className={styles.background}
-          src="/images/office-desktop.png"
+          src="/images/office-desktop-2.png"
           alt="Vanessa's office"
         />
       </picture>
+
+      <WindowOverlay weather="sunny" />
 
       {hotspots.map(hotspot => (
         <Hotspot

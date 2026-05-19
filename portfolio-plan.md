@@ -27,12 +27,15 @@ personality first, skills second.
 - [x] Mobile image generated
 - [x] Project initialized (Vite + React + TypeScript)
 - [x] Pushed to GitHub
-- [ ] Boilerplate cleaned up
-- [ ] Images added to project
-- [ ] Scene component built (full-screen background)
-- [ ] Hotspots mapped
-- [ ] Interactions built
+- [x] Boilerplate cleaned up
+- [x] Images added to project
+- [x] Scene component built (full-screen background)
+- [x] Hotspots mapped and positioned (src/data/hotspots.ts)
+- [x] Hover effects added (Framer Motion white glow)
+- [ ] Content panels built (books, spotify, photos, contact, miniatures)
+- [ ] Laptop zoom interaction built
 - [ ] Content written (projects, book list, about text)
+- [ ] Mobile hotspot positions adjusted
 - [ ] Deployed
 
 ---
